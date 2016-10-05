@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5072f778-5ef1-4565-aa36-b0e4bcb33bed" name="abuobe@WIN-GS9GMUJITS8 2012-08-01 09:33:26" runUser="WIN-GS9GMUJITS8\abuobe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="10a857c9-cd70-4194-8331-dd7150a7c3b4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abuobe_WIN-GS9GMUJITS8 2012-08-01 09_33_26">
+      <DeploymentItem filename="C:\Calculator\bin\Debug\Calculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-01T09:33:26.1184178-07:00" queuing="2012-08-01T09:33:26.1433160-07:00" start="2012-08-01T09:33:26.3268792-07:00" finish="2012-08-01T09:33:26.6998640-07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WIN-GS9GMUJITS8" outcome="Warning" timestamp="2012-08-01T09:33:26.1433160-07:00">
+        <Text>Deployment is currently disabled. The deployment item 'CalcTest\data.csv' on test 'CalcTest.calcFunctionalityTest.fnAddTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="fnAddTest" storage="c:\calculator\calctest\bin\debug\calctest.dll" id="eca450a0-3ddd-c132-9392-2015fad5f390">
+      <DeploymentItems>
+        <DeploymentItem filename="CalcTest\data.csv" />
+      </DeploymentItems>
+      <Execution id="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" />
+      <TestMethod codeBase="C:/Calculator/CalcTest/bin/Debug/CalcTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalcTest.calcFunctionalityTest, CalcTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="fnAddTest" />
+      <DataSource connectionString="|DataDirectory|\data.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="data#csv" />
+    </UnitTest>
+    <UnitTest name="fnSubTest" storage="c:\calculator\calctest\bin\debug\calctest.dll" id="701d39c9-120c-61d1-6663-4b36d8b7ed93">
+      <Execution id="4d0810f8-d6fb-4f0d-b76e-cded5add37a6" />
+      <TestMethod codeBase="C:/Calculator/CalcTest/bin/Debug/CalcTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalcTest.calcFunctionalityTest, CalcTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="fnSubTest" />
+    </UnitTest>
+    <UnitTest name="fnDivTest" storage="c:\calculator\calctest\bin\debug\calctest.dll" id="a5b8f819-348f-0273-83aa-27f380e19271">
+      <Execution id="3169ad6c-a1ae-4590-aa74-f177bbabdea0" />
+      <TestMethod codeBase="C:/Calculator/CalcTest/bin/Debug/CalcTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalcTest.calcFunctionalityTest, CalcTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="fnDivTest" />
+    </UnitTest>
+    <UnitTest name="fnMulTest" storage="c:\calculator\calctest\bin\debug\calctest.dll" id="557fd8f0-49f1-334f-cc60-5f63c6224654">
+      <Execution id="6b8b0673-0a92-429a-a89d-92bbb2e84056" />
+      <TestMethod codeBase="C:/Calculator/CalcTest/bin/Debug/CalcTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalcTest.calcFunctionalityTest, CalcTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="fnMulTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="eca450a0-3ddd-c132-9392-2015fad5f390" executionId="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="557fd8f0-49f1-334f-cc60-5f63c6224654" executionId="6b8b0673-0a92-429a-a89d-92bbb2e84056" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5b8f819-348f-0273-83aa-27f380e19271" executionId="3169ad6c-a1ae-4590-aa74-f177bbabdea0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="701d39c9-120c-61d1-6663-4b36d8b7ed93" executionId="4d0810f8-d6fb-4f0d-b76e-cded5add37a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" testId="eca450a0-3ddd-c132-9392-2015fad5f390" testName="fnAddTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0917739" startTime="2012-08-01T09:33:26.2897760-07:00" endTime="2012-08-01T09:33:26.5831842-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="1bd47d2d-b5da-44c5-80d5-1769e68e25d6" parentExecutionId="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" testId="eca450a0-3ddd-c132-9392-2015fad5f390" testName="fnAddTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0133262" startTime="2012-08-01T09:33:26.5568214-07:00" endTime="2012-08-01T09:33:26.5739084-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="58c52cb9-cbe4-4865-8512-7772aa346208" parentExecutionId="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" testId="eca450a0-3ddd-c132-9392-2015fad5f390" testName="fnAddTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0000338" startTime="2012-08-01T09:33:26.5739084-07:00" endTime="2012-08-01T09:33:26.5739084-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff32cea-8413-4f8c-b7b2-7b571c5a197c" dataRowInfo="1" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b8b0673-0a92-429a-a89d-92bbb2e84056" testId="557fd8f0-49f1-334f-cc60-5f63c6224654" testName="fnMulTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0009856" startTime="2012-08-01T09:33:26.5870898-07:00" endTime="2012-08-01T09:33:26.5900190-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b8b0673-0a92-429a-a89d-92bbb2e84056">
+    </UnitTestResult>
+    <UnitTestResult executionId="3169ad6c-a1ae-4590-aa74-f177bbabdea0" testId="a5b8f819-348f-0273-83aa-27f380e19271" testName="fnDivTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0020024" startTime="2012-08-01T09:33:26.5914836-07:00" endTime="2012-08-01T09:33:26.5973420-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3169ad6c-a1ae-4590-aa74-f177bbabdea0">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d0810f8-d6fb-4f0d-b76e-cded5add37a6" testId="701d39c9-120c-61d1-6663-4b36d8b7ed93" testName="fnSubTest" computerName="WIN-GS9GMUJITS8" duration="00:00:00.0017234" startTime="2012-08-01T09:33:26.5988066-07:00" endTime="2012-08-01T09:33:26.6022240-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d0810f8-d6fb-4f0d-b76e-cded5add37a6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

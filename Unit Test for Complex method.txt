@@ -1,0 +1,48 @@
+3,3,6
+3,4,7
+0,0,0
+4,3,7
+0,1,1
+1,0,0
+
+
+
+
+
+
+
+private TestContext testContextInstance;
+
+        /// <summary>
+        ///Gets or sets the test context which provides
+        ///information about and functionality for the current test run.
+        ///</summary>
+        public TestContext TestContext
+        {
+            get
+            {
+                return testContextInstance;
+            }
+            set
+            {
+                testContextInstance = value;
+                //Task2
+            }
+        }
+
+//DeploymentItem--Specify a file or directory that should be deployed along with the assemblies before running a test
+        //DataSourceAttribute
+        //Initializes a new instance of the DataSourceAttribute class. 
+        //This instance will be initialized with a data provider, connection string, data table and data access method to access the data source.
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("CalcTest\\data.csv"), TestMethod()]
+        public void ComplexTest()
+        {
+            calcFunctionality target = new calcFunctionality();
+            int num1 = Convert.ToInt32(TestContext.DataRow["num1"].ToString());
+            int num2 = Convert.ToInt32(TestContext.DataRow["num2"].ToString());
+            int expected = Convert.ToInt32(TestContext.DataRow["Addres"].ToString());
+            int actual;
+            actual = target.complex(num1, num2);
+            Assert.AreEqual(expected, actual);
+
+        }
